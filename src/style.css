@@ -1,0 +1,72 @@
+html{
+    background: url(img/img1.jpg) no-repeat; 
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: monospace;
+	align-items: center;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+
+h2 {
+	margin: 10px 0 20px;
+    color: chartreuse;
+}
+
+.container {
+	background-color: #000000c9;
+	box-shadow: 0px 2px 10px;
+	padding: 20px;
+	width: 350px;
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.container-box {
+	background-color: #00000098 ;
+	position: relative;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 12px;
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container-box .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
+}
+
+.btn {
+	border: none;
+    color: chartreuse;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 8px 12px;
+	background-color: #000000c2;
+	border-radius: 5px;
+}
+
+.btn-large {
+	display: block;
+	width: 100%;
+}
